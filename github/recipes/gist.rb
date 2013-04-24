@@ -13,7 +13,7 @@ include_recipe "redis"
 
 # Only define directory resource once
 begin
-  run_context.resource_collection.lookup("rbenv_version[rbenv version 1.9.3-p194]")
+  run_context.resource_collection.lookup("rbenv_version[rbenv version 1.9.3-p392]")
 rescue Chef::Exceptions::ResourceNotFound => e
-  rbenv_version "1.9.3-p194"
+  rbenv_version "1.9.3-p392"
 end
