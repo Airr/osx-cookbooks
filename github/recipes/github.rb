@@ -1,5 +1,4 @@
 include_recipe "elasticsearch"
-include_recipe "erlang"
 include_recipe "gcc"
 include_recipe "git"
 include_recipe "homebrew"
