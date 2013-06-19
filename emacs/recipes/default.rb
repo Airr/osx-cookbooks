@@ -8,8 +8,6 @@ git node[:emacs][:path] do
   user node[:emacs][:user]
 end
 
-package "ack"
-
 package "aspell" do
   options "--lang=en"
 end
