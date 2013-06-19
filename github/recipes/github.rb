@@ -14,7 +14,7 @@ include_recipe "redis"
 package "gpgme"
 
 begin
-  run_context.resource_collection.lookup("rbenv_version[rbenv version 1.9.3-p429]")
+  run_context.resource_collection.lookup("rbenv_version[rbenv version 1.9.3-p392]")
 rescue Chef::Exceptions::ResourceNotFound => e
-  rbenv_version "1.9.3-p429"
+  rbenv_version "1.9.3-p392"
 end
