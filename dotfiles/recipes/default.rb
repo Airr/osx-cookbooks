@@ -30,7 +30,6 @@ Dir["#{node[:dotfiles][:path]}/*"].each do |file|
 end
 
 include_recipe "homebrew"
-include_recipe "emacs"
 include_recipe "git"
 include_recipe "rbenv"
 

@@ -5,7 +5,6 @@ description      "Installs/configures dotfiles"
 version          "0.1.0"
 
 depends "homebrew"
-depends "emacs"
 depends "git"
 depends "rbenv"
 
