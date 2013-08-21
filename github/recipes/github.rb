@@ -10,7 +10,6 @@ include_recipe "pow"
 include_recipe "python"
 include_recipe "rbenv"
 include_recipe "redis"
-include_recipe "github::lib"
 
 package "gpgme"
 
