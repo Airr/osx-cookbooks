@@ -23,7 +23,7 @@ execute "ensure Xcode llvm-gcc version is the same as Command Line Tools" do
   not_if { `llvm-gcc --version` == `xcrun llvm-gcc --version` }
 end
 
-execute "ensure Xcode clang version is the same as Command Line Tools" do
-  command "sh -c 'exit 1'"
-  not_if { `clang --version` == `xcrun clang --version` }
-end
+# execute "ensure Xcode clang version is the same as Command Line Tools" do
+#   command "sh -c 'exit 1'"
+#   not_if { `clang --version` == `xcrun clang --version` }
+# end
