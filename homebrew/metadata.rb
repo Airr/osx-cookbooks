@@ -5,6 +5,6 @@ description      "Configures homebrew and homebrew packages"
 version          "0.1.0"
 
 recipe "homebrew", "Installs/updates homebrew"
-depends "xcode"
+depends "gcc"
 
 supports "mac_os_x"

@@ -1,4 +1,4 @@
-include_recipe "xcode"
+include_recipe "gcc"
 
 execute node[:homebrew][:prefix] do
   command "sudo mkdir #{node[:homebrew][:prefix]}; " +
