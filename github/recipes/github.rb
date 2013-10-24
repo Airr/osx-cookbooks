@@ -7,7 +7,6 @@ include_recipe "memcached"
 include_recipe "mysql"
 include_recipe "node"
 include_recipe "pow"
-include_recipe "python"
 include_recipe "rbenv"
 include_recipe "redis"
 
