@@ -10,6 +10,7 @@ include_recipe "pow"
 include_recipe "rbenv"
 include_recipe "redis"
 
+package "geoip"
 package "gpgme"
 
 begin
