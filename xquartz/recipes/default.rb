@@ -1,5 +1,5 @@
 unless File.exist?("/Applications/Utilities/XQuartz.app")
-  version     = "2.7.4"
+  version     = "2.7.5"
   root        = Chef::Config[:file_cache_path]
   xquartz_dmg = "#{root}/XQuartz-#{version}.dmg"
 
